@@ -6,10 +6,12 @@ It may become also your number one tool to integrate responsive images. It can a
 
 ## How to
 
-1. Download the [lazysizes.min.js script](http://afarkas.github.io/lazysizes/lazysizes.min.js) and include **lazysizes** in your webpage. (Or install via npm: ``npm install lazysizes --save`` or bower ``bower install lazysizes --save``)
+1. Download the [lazysizes.min.js script](http://afarkas.github.io/lazysizes/lazysizes.min.js) and include **lazysizes** in your webpage. (Or install via npm: ``npm install lazysizes --save``, bower ``bower install lazysizes --save`` or via [jsDelivr CDN](https://www.jsdelivr.com/package/npm/lazysizes))
 
     ```html
     <script src="lazysizes.min.js" async=""></script>
+	<-- or include it directly via jsDelivr CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/lazysizes@5"></script>
     ```
     
     Or:
